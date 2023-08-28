@@ -43,6 +43,7 @@ jobs:
       uses: actions/download-artifact@v3
       with:
         name: dependency-check-report
+    - run: ls -la
     - run: pip3 install openai
     - name: Fix vulnerabilities
       env:
