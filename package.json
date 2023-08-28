@@ -9,7 +9,7 @@
     "eject": "react-scripts eject",
     "server": "cd ./server && npm start",
     "postinstall": "cd ./server && npm install",
-    "owasp": "owasp-dependency-check --project \"cart\" -f HTML JSON"
+    "owasp": "owasp-dependency-check --project \"cart\" -f JSON"
   },
   "dependencies": {
     "react": "^18.2.0",
