@@ -29,8 +29,8 @@ jobs:
     - run: npm ci
     - run: npm run owasp
     - name: Archive vulnerability artifacts
-        uses: actions/upload-artifact@v3
-        with:
-          name: dependency-check-report
-          path: |
-            dependency-check-reports
+      uses: actions/upload-artifact@v3
+      with:
+        name: dependency-check-report
+        path: |
+          dependency-check-reports
