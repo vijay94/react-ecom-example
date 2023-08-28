@@ -1,3 +1,11 @@
 node_modules
 server/node_modules
 build
+
+report/
+dependency-check-bin/
+dependency-check-reports/
+vulnerabilityDescription.json
+vulnerabilityExplanation.html
+
+.DS_Store

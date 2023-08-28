@@ -31,6 +31,16 @@ function App() {
     setCart([...cart, book]);
   };
 
+  const onAdd = (book) => {
+    addBook(book)
+      .then(({ book }) => {
+        fetchBooks();
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  };
+
   const showCart = () => {
     setIsCartVisible(true);
   };
